@@ -1,29 +1,29 @@
 
+        Console.WriteLine("Qu'elle est la mémoire demandé (choisir nombre) \n 1- octet \n 2- Ko \n 3- Mo \n 4- Go \n 5- To");
+       int question = Convert.ToInt32(Console.ReadLine());
+        switch (question)
+        {
+            case 1:
+                Console.WriteLine("Vous avex choisi octet");
+                break;
+            case 2:
+                Console.WriteLine("Vous avez choisi kilo-octet");
+                break;
+            case 3:
+                Console.WriteLine("Vous avez choisi mégaoctet");
+                break;
+            case 4:
+                Console.WriteLine("Vous avez choisi gigaoctet.");
+                break;
+            case 5:
+                Console.WriteLine("Vous avez choisi téraoctet");
+                break;
+            default:
+                Console.WriteLine("Vous avez mal entrer la mémoire. Recommencer!");
+                break;
+        }
 
-    Console.WriteLine("Qu'elle est la mémoire demandé (octet, Ko, Mo, Go, To)");
-    string question = Console.ReadLine();
-    
-    switch (question.ToLower())
-    {
-        case "octet":
-            Console.WriteLine("Vous avex choisi octet");
-            break;
-        case "ko":
-            Console.WriteLine("Vous avez choisi kilo-octet");
-            break;
-        case "mo":
-            Console.WriteLine("Vous avez choisi mégaoctet");
-            break;
-        case "go":
-            Console.WriteLine("Vous avez choisi gigaoctet.");
-            break;
-        case "to":
-            Console.WriteLine("Vous avez choisi téraoctet");
-            break;
-    }
-   
-
-    if (question.ToLower() == "octet")
+        if (question == 1)
     {
         Console.WriteLine("Qu'elle est le nombre de la mémoire en octet");
         double memoire = Convert.ToDouble(Console.ReadLine());
@@ -37,7 +37,7 @@
 
         Console.Write($"Dans chaque adresses ont besoin de {resultat2} bits pour être représenter.");
     }
-else if (question.ToLower() == "ko")
+else if (question == 2)
     {
         Console.WriteLine("Qu'elle est le nombre de la mémoire en kilo-octet (KO)");
         double memoire = Convert.ToDouble(Console.ReadLine());
@@ -51,7 +51,7 @@ else if (question.ToLower() == "ko")
 
         Console.Write($"Dans chaque adresses ont besoin de {resultat2} bits pour être représenter.");
     }
-    else if (question.ToLower() == "mo")
+    else if (question == 3)
     {
         Console.WriteLine("Qu'elle est le nombre de la mémoire en mégaoctet (MO)");
         double memoire = Convert.ToDouble(Console.ReadLine());
@@ -65,7 +65,7 @@ else if (question.ToLower() == "ko")
 
         Console.Write($"Dans chaque adresses ont besoin de {resultat2} bits pour être représenter.");
     }
-    else if (question.ToLower() == "go")
+    else if (question == 4)
     {
         Console.WriteLine("Qu'elle est le nombre de la mémoire en gigaoctet (GO)");
         double memoire = Convert.ToDouble(Console.ReadLine());
@@ -79,7 +79,7 @@ else if (question.ToLower() == "ko")
 
         Console.Write($"Dans chaque adresses ont besoin de {resultat2} bits pour être représenter.");
     }
-else if (question.ToLower() == "to")
+else if (question == 5)
     {
         Console.WriteLine("Qu'elle est le nombre de la mémoire en téraoctet (TO)");
         double memoire = Convert.ToDouble(Console.ReadLine());
