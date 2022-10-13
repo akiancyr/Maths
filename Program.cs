@@ -101,7 +101,7 @@ static void TrouverMemoireAdresse()
         Console.WriteLine("Qu'elle est le nombre de la mémoire en octet");
         double memoire = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Qu'elle est le nombre de bits?");
+        Console.WriteLine("Qu'elle est le nombre de bits du 'Mots'?");
         double nbrDeBits = Convert.ToDouble(Console.ReadLine());
 
         nbrDeBits = nbrDeBits / 8;
@@ -115,7 +115,7 @@ else if (question.ToLower() == "ko")
         Console.WriteLine("Qu'elle est le nombre de la mémoire en kilo-octet (KO)");
         double memoire = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Qu'elle est le nombre de bits?");
+        Console.WriteLine("Qu'elle est le nombre de bits du 'Mots'?");
         double nbrDeBits = Convert.ToDouble(Console.ReadLine());
 
         nbrDeBits = nbrDeBits / 8;
@@ -129,7 +129,7 @@ else if (question.ToLower() == "ko")
         Console.WriteLine("Qu'elle est le nombre de la mémoire en mégaoctet (MO)");
         double memoire = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Qu'elle est le nombre de bits?");
+        Console.WriteLine("Qu'elle est le nombre de bits du 'Mots'?");
         double nbrDeBits = Convert.ToDouble(Console.ReadLine());
 
         nbrDeBits = nbrDeBits / 8;
@@ -143,7 +143,7 @@ else if (question.ToLower() == "ko")
         Console.WriteLine("Qu'elle est le nombre de la mémoire en gigaoctet (GO)");
         double memoire = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Qu'elle est le nombre de bits?");
+        Console.WriteLine("Qu'elle est le nombre de bits du 'Mots'?");
         double nbrDeBits = Convert.ToDouble(Console.ReadLine());
 
         nbrDeBits = nbrDeBits / 8;
@@ -157,7 +157,7 @@ else if (question.ToLower() == "to")
         Console.WriteLine("Qu'elle est le nombre de la mémoire en téraoctet (TO)");
         double memoire = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Qu'elle est le nombre de bits?");
+        Console.WriteLine("Qu'elle est le nombre de bits du 'Mots'?");
         double nbrDeBits = Convert.ToDouble(Console.ReadLine());
 
         nbrDeBits = nbrDeBits / 8;
