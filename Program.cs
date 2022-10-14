@@ -91,6 +91,6 @@ else if (question == 5)
         double calcul = memoire * Math.Pow(2, 40) / nbrDeBits;
         double resultat2 = Math.Log(calcul) / Math.Log(2);
 
-        Console.Write($"Dans chaque adresses ont besoin de {resultat2} bits pour être représenter.");
+        Console.Write($"Chaque adresses ont besoin de {resultat2} bits pour être représenter.");
     }
     Console.WriteLine("Terminé");
